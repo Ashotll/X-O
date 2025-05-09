@@ -1,0 +1,52 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-size: 100%;
+}
+body {
+  align-content: center;
+}
+.XO_container {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+}
+.XO_texts {
+  display: flex;
+  font-size: 40px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.XO_box {
+  display: grid;
+  box-sizing: border-box;
+  border: 1px solid;
+  grid-template: 1fr / repeat(3, 1fr);
+}
+.XO_box div {
+  width: 100px;
+  box-sizing: border-box;
+  height: 100px;
+  border: 1px solid;
+  text-align: center;
+  font-size: 50px;
+  align-content: center;
+}
+.playAgain {
+  padding: 0px 20px;
+  height: 40px;
+  width: auto;
+  background-color: #fff;
+  border: 1px solid;
+}
